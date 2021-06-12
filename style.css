@@ -1,0 +1,95 @@
+
+body {
+    background: #F3AC3C;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 25.3%;
+    transform: translate(-50%, -50%);
+  }
+  .left_part {
+    width: 120px;
+    height: 120px;
+    background: #998235;
+    border-radius: 50%;
+    position: relative;
+  }
+  .horizontal_line {
+    background: #1A4341;
+    height: 40;
+    width: 10;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+  }
+  .middle__part {
+    width: 100px;
+    height: 100px;
+    background: #998235;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+  .y_circle {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background: #F3AC3C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .green_circle {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background: #1A4341;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hand__hold_part {
+    background: #1A4341;
+    height: 20px;
+    width: 120px;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(90%, -50%);
+  }
+  .chord__holder_part {
+    background: #998235;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(525%, -50%);
+    display: grid;;
+    align-items: center;
+    justify-content: center;
+  }
+  .line_trough {
+    height: 4px;
+    width: 20px;
+    border-radius: 5px;
+    background: #1A4341;
+  }
+  .line_top {
+    margin-top: 5px;
+  }
+  .line_bottom {
+    margin-bottom: 5px;
+  }
