@@ -77,7 +77,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(525%, -50%);
-    display: grid;;
+    display: grid;
     align-items: center;
     justify-content: center;
   }
